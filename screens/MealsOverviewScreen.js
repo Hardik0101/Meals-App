@@ -22,6 +22,7 @@ function MealsOverviewScreen({ route, navigation }) {
   function renderMealsItem(itemData) {
     const item = itemData.item;
     const mealItemProp = {
+      id: item.id,
       title: item.title,
       imageUrl: item.imageUrl,
       duration: item.duration,
